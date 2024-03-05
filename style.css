@@ -1,21 +1,6 @@
-
-
-
-@media screen and (max-width: 62.5rem) {
-    
-}
-
-@font-face {
-    font-family: myFirstFont;
-    font-family: 'Roboto';
-    src: local('Roboto'), url('https://roboto-webfont.googlecode.com/files/Roboto-Regular-webfont.woff') format('woff');
-    font-style: normal;
-}
-
 * {
-    font-family: myFirstFont;
+    font-family: roboto;
 }
-
 
 .container{
     display: flex;
@@ -39,3 +24,27 @@ padding-left: 10rem ;
     object-fit: cover;
     object-position: center;
 } 
+
+@media (min-width: 62.51rem) {
+.desktop{
+    display: none;
+}
+}
+
+
+@media (max-width: 62.5rem) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image{
+        flex: 1;
+
+    } 
+    .mobile{
+        display: none;
+    }
+}

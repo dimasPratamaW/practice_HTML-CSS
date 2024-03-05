@@ -5,12 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<style>
+    @font-face {
+        font-family: myFirstFont;
+        font-family: 'Roboto';
+        src: local('Roboto'), url('https://roboto-webfont.googlecode.com/files/Roboto-Regular-webfont.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
 
-<body>
-    <section>
+    * {
+        font-family: myFirstFont;
+    }
+</style>
+
+<body class="container">
+    <section class="section sectionText">
         <div>
-            <h1>Welcome Back</h1>
+            <h1>Welcome Back 👋</h1>
             <p>
                 Today is a new day it's your day. You shape it.
                 <br>
@@ -38,7 +52,11 @@
             <p>&copy; 2023 All Right Reserved</p> <!-- the font color need change and make all uppercase-->
         </footer>
     </section>
-    <section></section>
+    <section class="section">
+        <div>
+            <img src="Login_Art.png" alt="image-vas-flower" class="image">
+        </div>
+    </section>
 </body>
 
 </html>

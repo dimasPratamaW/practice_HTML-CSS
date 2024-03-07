@@ -94,14 +94,14 @@ footer{
     text-align: center;
 }
 
-@media (min-width: 62.5000001rem) {
+@media (min-width: 68.75000001rem) {
     .desktop {
         display: none;
     }
 }
 
 
-@media (max-width: 62.5rem) {
+@media (max-width: 68.75rem) {
     body {
         min-height: 70vh;
     }

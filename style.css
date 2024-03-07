@@ -2,23 +2,25 @@
     font-family: roboto;
 }
 
-body {
+.bodywrapper {
     margin: 0;
     padding: 0;
     display: grid;
     place-content: center;
     min-height: 100vh;
 }
-a{
+a, p{
     font-size: 1em;
 }
+
 
 footer{
     color:#959CB6;
     text-transform: uppercase;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     bottom: 0rem;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .container {
@@ -32,6 +34,7 @@ footer{
     flex: 1;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
     margin-right: 2rem;
     padding-right: 1rem;
 }
@@ -114,11 +117,21 @@ footer{
         width: 100%;
         object-fit: cover;
         object-position: center;
+        margin-top: 1rem;
 
     }
 
     .mobile {
         display: none;
+    }
+
+    .section {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-right: 0rem;
     }
 
     .sectionInput {
